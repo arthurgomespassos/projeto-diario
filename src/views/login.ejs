@@ -1,0 +1,20 @@
+<%- include('./includes/head') %>
+<%- include('./includes/nav') %>
+
+<div class="form-container">
+  <form class="form-content" action="/login" method="POST">
+    <div class="form-item">
+      <label for="username">Nome ou Email:</label>
+      <input type="text" id="usernameoremail" name="usernameoremail" placeholder="digite aqui seu nome de usuário ou email">
+    </div>
+    <div class="form-item">
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <div class="form-item">
+      <button type="submit">Logar</button>
+    </div>
+  </form>
+</div>
+
+<%- include('./includes/footer') %>
