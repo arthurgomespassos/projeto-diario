@@ -10,10 +10,10 @@ route.get('/', homeController.index);
 
 // register
 route.get('/register', registerController.index);
-route.post('/register', registerController.register);
+route.post('/register/register', registerController.register);
 
 // login
 route.get('/login', loginController.index);
-route.post('/login', loginController.login);
+route.post('/login/login', loginController.login);
 
 module.exports = route;

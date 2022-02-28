@@ -164,3 +164,12 @@ body {
 .form-item button:hover {
   background-color: var(--green);
 }
+
+.invalid-input {
+  color: var(--darker);
+  background-color: var(--red);
+  border-radius: 0 0 0.8rem 0.8rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  text-align: center;
+}
